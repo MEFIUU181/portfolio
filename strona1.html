@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATI | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <a href="#todo">To-Do</a>
+</head>
+
+<body>
+
+    <div class="tlo">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <header>
+        <h1>MATI</h1>
+        <p>Przyszły programista 🚀</p>
+    </header>
+
+    <nav>
+        <a href="#o-mnie">O mnie</a>
+        <a href="#umiejetnosci">Umiejętności</a>
+        <a href="#projekty">Projekty</a>
+        <a href="#kontakt">Kontakt</a>
+
+        <button id="tryb">☀️</button>
+    </nav>
+
+    <main>
+
+        <section id="o-mnie">
+            <h2>O mnie</h2>
+
+        <p>
+    Cześć! Mam na imię Mati. Uczę się tworzenia stron
+    internetowych i rozwijam swoje umiejętności w HTML,
+    CSS oraz JavaScript. To portfolio pokazuje moje
+    postępy i projekty, które tworzę podczas nauki. 🚀
+</p>
+        </section>
+
+        <section id="umiejetnosci">
+            <h2>Moje umiejętności</h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Moje HOBBY</h2>
+
+            <ul>
+                <li>🚲 Rower</li>
+                <li>🚗 Samochody</li>
+                <li>💻 Programowanie</li>
+            </ul>
+        </section>
+
+        <section id="projekty">
+            <h2>Moje projekty</h2>
+
+            <div class="projekty">
+
+                <div class="projekt">
+                    <h3>🌐 Projekt 1</h3>
+                    <p>
+                        Moja pierwsza strona internetowa.
+                    </p>
+                    <button>Zobacz projekt</button>
+                </div>
+
+                <div class="projekt">
+                    <h3>💻 Projekt 2</h3>
+                    <p>
+                        Projekt, który stworzę podczas nauki.
+                    </p>
+                    <button>Zobacz projekt</button>
+                </div>
+
+                <div class="projekt">
+                    <h3>🚀 Projekt 3</h3>
+                    <p>
+                        Mój kolejny projekt w JavaScript.
+                    </p>
+                    <button>Zobacz projekt</button>
+                </div>
+
+            </div>
+        </section>
+<section id="todo">
+    <h2>📝 Moja lista zadań</h2>
+
+    <div class="todo">
+        <input
+            type="text"
+            id="zadanie"
+            placeholder="Wpisz zadanie..."
+        >
+
+        <button id="dodaj-zadanie">
+            Dodaj
+        </button>
+    </div>
+
+    <ul id="lista-zadan"></ul>
+</section>
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+
+            <button id="pokaz-formularz">
+                Napisz do mnie
+            </button>
+
+            <form id="formularz" class="formularz">
+
+                <h3>Napisz wiadomość</h3>
+
+                <input
+                    type="text"
+                    placeholder="Twoje imię"
+                    required
+                >
+
+                <input
+                    type="email"
+                    placeholder="Twój e-mail"
+                    required
+                >
+
+                <textarea
+                    placeholder="Twoja wiadomość"
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Wyślij
+                </button>
+
+                <p id="komunikat"></p>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 MATI - Moje portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <button onclick="alert('Projekt będzie dostępny wkrótce 🚀')">
+    Zobacz projekt
+</button>
+
+</body>
+</html>
